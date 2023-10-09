@@ -45,6 +45,7 @@ def track():
     query = """
         select distinct num
         from `progetto-pcsc.dataset.tabella` t1
+        order by num
     """
     query_job = client.query(query)  # Make an API request.
 
