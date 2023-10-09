@@ -1,0 +1,5 @@
+Flask
+requests
+debugpy 
+google-cloud-bigquery
+
